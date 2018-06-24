@@ -17,8 +17,6 @@ class ExampleActivity : BaseActivity(), ExampleView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        presenter.attachView(this)
-
         btnGetEntity.setOnClickListener {
             presenter.getEntityById(100)
         }

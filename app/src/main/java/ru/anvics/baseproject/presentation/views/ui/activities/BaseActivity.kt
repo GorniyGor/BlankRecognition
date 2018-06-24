@@ -17,8 +17,9 @@ abstract class BaseActivity : MvpAppCompatActivity(), BaseView {
     override fun hideProgress() {
         progress.dismiss()
     }
-    override fun error(message: String) {
-        showToast(message)
+    override fun error(message: String?) {
+        if (message != null) showToast(message)
+        else showToast("Неопознанная ошибка")
     }
 
 }
