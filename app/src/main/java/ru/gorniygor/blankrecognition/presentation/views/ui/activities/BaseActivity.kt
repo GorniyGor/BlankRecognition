@@ -1,9 +1,9 @@
-package ru.anvics.baseproject.presentation.views.ui.activities
+package ru.gorniygor.blankrecognition.presentation.views.ui.activities
 
 import com.arellomobile.mvp.MvpAppCompatActivity
-import ru.anvics.baseproject.presentation.views.iviews.BaseView
-import ru.anvics.baseproject.util.showToast
-import ru.anvics.templates.util.ProgressDialog
+import ru.gorniygor.blankrecognition.presentation.views.iviews.BaseView
+import ru.gorniygor.blankrecognition.util.showToast
+import ru.gorniygor.templates.util.ProgressDialog
 
 abstract class BaseActivity : MvpAppCompatActivity(), BaseView {
 

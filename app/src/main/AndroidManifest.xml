@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="ru.anvics.baseproject"
+          package="ru.gorniygor.blankrecognition"
           tools:ignore="GoogleAppIndexingWarning">
 
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
-        android:name=".presentation.App"
+        android:name="ru.gorniygor.blankrecognition.presentation.App"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MainTheme">
-        <activity android:name="ru.anvics.baseproject.presentation.views.ui.activities.ExampleActivity">
+        <activity android:name="ru.gorniygor.blankrecognition.presentation.views.ui.activities.ExampleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

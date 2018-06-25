@@ -1,8 +1,8 @@
-package ru.anvics.baseproject.data
+package ru.gorniygor.blankrecognition.data
 
 import io.reactivex.Single
-import ru.anvics.baseproject.domain.ExampleEntity
-import ru.anvics.baseproject.domain.repository.IExampleRepository
+import ru.gorniygor.blankrecognition.domain.ExampleEntity
+import ru.gorniygor.blankrecognition.domain.repository.IExampleRepository
 
 object ExampleRepository : IExampleRepository {
     override fun getEntityById(id: Long): Single<ExampleEntity> {

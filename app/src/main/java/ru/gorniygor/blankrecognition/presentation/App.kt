@@ -1,4 +1,4 @@
-package ru.anvics.baseproject.presentation
+package ru.gorniygor.blankrecognition.presentation
 
 import android.app.Application
 import com.chibatching.kotpref.Kotpref

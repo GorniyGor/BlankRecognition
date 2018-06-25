@@ -1,8 +1,8 @@
-package ru.anvics.baseproject.presentation.views.ui.fragments
+package ru.gorniygor.blankrecognition.presentation.views.ui.fragments
 
 import android.support.v4.app.Fragment
-import ru.anvics.baseproject.presentation.views.iviews.BaseView
-import ru.anvics.templates.util.ProgressDialog
+import ru.gorniygor.blankrecognition.presentation.views.iviews.BaseView
+import ru.gorniygor.templates.util.ProgressDialog
 
 abstract class BaseFragment: Fragment(), BaseView {
     private val progress by lazy {

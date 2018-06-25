@@ -1,11 +1,11 @@
-package ru.anvics.templates.util
+package ru.gorniygor.templates.util
 
 import android.app.Activity
 import android.os.Bundle
 import android.support.v7.app.AppCompatDialog
 import android.view.Window
 import kotlinx.android.synthetic.main.progress_dialog.*
-import ru.anvics.baseproject.R
+import ru.gorniygor.blankrecognition.R
 
 /**
  * Created by Gor on 20.03.2018.

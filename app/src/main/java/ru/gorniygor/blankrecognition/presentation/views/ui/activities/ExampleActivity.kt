@@ -1,4 +1,4 @@
-package ru.anvics.baseproject.presentation.views.ui.activities
+package ru.gorniygor.blankrecognition.presentation.views.ui.activities
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -12,10 +12,10 @@ import com.google.android.gms.vision.Detector
 import com.google.android.gms.vision.text.TextBlock
 import com.google.android.gms.vision.text.TextRecognizer
 import kotlinx.android.synthetic.main.activity_main.*
-import ru.anvics.baseproject.R
-import ru.anvics.baseproject.domain.ExampleEntity
-import ru.anvics.baseproject.presentation.presenters.ExamplePresenter
-import ru.anvics.baseproject.presentation.views.iviews.ExampleView
+import ru.gorniygor.blankrecognition.R
+import ru.gorniygor.blankrecognition.domain.ExampleEntity
+import ru.gorniygor.blankrecognition.presentation.presenters.ExamplePresenter
+import ru.gorniygor.blankrecognition.presentation.views.iviews.ExampleView
 import java.io.IOException
 
 

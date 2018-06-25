@@ -1,4 +1,4 @@
-package ru.anvics.baseproject.domain
+package ru.gorniygor.blankrecognition.domain
 
 class ExampleEntity(
         val id: Long,

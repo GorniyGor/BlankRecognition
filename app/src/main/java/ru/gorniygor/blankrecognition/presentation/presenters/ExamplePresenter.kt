@@ -1,10 +1,10 @@
-package ru.anvics.baseproject.presentation.presenters
+package ru.gorniygor.blankrecognition.presentation.presenters
 
 import com.arellomobile.mvp.InjectViewState
 import com.arellomobile.mvp.MvpPresenter
-import ru.anvics.baseproject.data.ExampleRepository
-import ru.anvics.baseproject.domain.interactors.ExampleInteractor
-import ru.anvics.baseproject.presentation.views.iviews.ExampleView
+import ru.gorniygor.blankrecognition.data.ExampleRepository
+import ru.gorniygor.blankrecognition.domain.interactors.ExampleInteractor
+import ru.gorniygor.blankrecognition.presentation.views.iviews.ExampleView
 
 @InjectViewState
 class ExamplePresenter : MvpPresenter<ExampleView>() {

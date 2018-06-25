@@ -1,4 +1,4 @@
-package ru.anvics.baseproject.presentation.views.iviews
+package ru.gorniygor.blankrecognition.presentation.views.iviews
 
 import com.arellomobile.mvp.MvpView
 

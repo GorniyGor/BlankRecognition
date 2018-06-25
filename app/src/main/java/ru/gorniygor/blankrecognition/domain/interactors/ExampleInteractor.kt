@@ -1,10 +1,10 @@
-package ru.anvics.baseproject.domain.interactors
+package ru.gorniygor.blankrecognition.domain.interactors
 
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
-import ru.anvics.baseproject.domain.ExampleEntity
-import ru.anvics.baseproject.domain.repository.IExampleRepository
+import ru.gorniygor.blankrecognition.domain.ExampleEntity
+import ru.gorniygor.blankrecognition.domain.repository.IExampleRepository
 
 /**
  * Created by Gor on 24.06.2018.
