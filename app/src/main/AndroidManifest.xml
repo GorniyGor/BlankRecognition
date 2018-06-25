@@ -4,6 +4,8 @@
           package="ru.anvics.baseproject"
           tools:ignore="GoogleAppIndexingWarning">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
     <application
         android:name=".presentation.App"
         android:allowBackup="false"
@@ -19,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr"/>
+
     </application>
 
 </manifest>
